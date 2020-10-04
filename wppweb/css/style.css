@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+    border-radius: 2px 15px 15px 15px;
+    background-color: #1e2428;
+}
+
+.right {
+    float: right;
+    border-radius: 15px 15px 2px 15px;
+    background-color: #054740;
+}
+
+.clear {
+    clear: both;
+}
+
+.photo-perfil {
+    width: 100%;
+    max-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.person {
+    margin-left: 12px;
+}
+
+.person h5 {
+    color: white;
+    font-size: 16px;
+}
+
+.person p {
+    color: white;
+    font-size: 12px;
+}
+
+header {
+    background-color: #2a2f32;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header1 {
+    width: 30%;
+    border-right: 1px solid #ccc;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header1 .icons svg {
+    color: #ccc;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.header2 {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 25px;
+}
+
+.perfil-friend {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.header2 .icons2 svg {
+    color: #ccc;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+}
+
+.list-friends {
+    border-right: 1px solid #2f3c42;
+    width: 29%;
+    height: calc(100vh - 24px);
+    background-color: #131c21;
+    overflow-y: auto;
+}
+
+.chat {
+    width: 71%;
+    height: calc(100vh - 24px);
+    background-color: #242d32;
+    position: relative;
+}
+
+section .line {
+    width: 100%;
+    height: 1px;
+    background-color: #2f3c42;
+}
+
+.list-friends input {
+    width: 90%;
+    height: 25px;
+    margin: 20px;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 12px;
+}
+
+.friend {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.friend .perfil {
+    display: flex;
+    align-items: center;
+}
+
+.time {
+    font-size: 15px;
+    color: white;
+}
+
+.line-bot {
+    width: 100%;
+    height: 1px;
+    background-color:  #2f3c42;
+    margin-left: 62px;
+}
+
+.input-msg {
+    display: flex;
+    align-items: center;
+    background-color: #1e2428;
+    bottom: 40px;
+    right: 0;
+    left: 0;
+    position: absolute;
+}
+
+.input-msg input {
+    width: 90%;
+    margin: 10px;
+    height: 35px;
+    border-radius: 25px;
+    border: 0;
+    padding-left: 8px;
+    outline: none;
+}
+
+.input-msg svg {
+    margin: 15px;
+    color: #ccc;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.conversation .msg {
+    margin: 10px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.conversation .msg p {
+    color: white;
+}
+
